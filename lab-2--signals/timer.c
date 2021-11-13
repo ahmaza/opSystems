@@ -23,7 +23,9 @@ void intHandler(int signum)
   stop_time = time(NULL); // stop time
   t_time= stop - start;
   
-  printf("The number of alarms are %d", t_time);
+  printf("The elapsed time is %d", t_time);
+  printf("The number of alarms are %d", alarm_number);
+
 }
 
 
